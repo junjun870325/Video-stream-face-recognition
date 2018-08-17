@@ -1,6 +1,7 @@
 # Video-stream-face-recognition
 
 前言：
+
 本文开发的是一个完整的视频流人脸识别系统，主要流程如下：
 
 首先，通过openCV抓取摄像头的视频流
@@ -21,6 +22,7 @@ pip3 install opencv-python
 下载facenet，其中src/align下是MTCNN的tensorflow实现及预训练模型
 
 git clone --recursive https://github.com/davidsandberg/facenet.git
+
 LFW数据集下载地址：http://vis-www.cs.umass.edu/lfw/
 
 通过以下命令对LFW数据进行人脸检测和对齐，这里我们获取160*160大小的图像以备后面使用，如果你有自己的数据集，可以忽略，先设置环境变量
