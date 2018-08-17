@@ -15,6 +15,7 @@
 第五，将第三部得到的512维的特征值作为第四部的输入，然后输出即为我们类别值
 
 准备工作：
+
 安装openCV
 
 pip3 install opencv-python
