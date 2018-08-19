@@ -30,3 +30,7 @@ LFW数据集下载地址：http://vis-www.cs.umass.edu/lfw/
 
 export PYTHONPATH=/Users/admin/facenet/src
 for N in {1..4}; do python3 /Users/admin/facenet/src/align/align_dataset_mtcnn.py /Users/admin/lfw /Users/admin/lfw_160 --image_size 160 --margin 32 --random_order --gpu_memory_fraction 0.25 & done
+
+models目录下的模型文件请到以下地址下载
+
+https://drive.google.com/open?id=1EXPBSXwTaqrSC0OhUdXNmKSh9qJUQ55-
